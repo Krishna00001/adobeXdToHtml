@@ -1,0 +1,31 @@
+:root {
+  /* fonts */
+  --font-proxima-nova: "Proxima Nova";
+
+  /* font sizes */
+  --font-size-2xs: 24px;
+  --font-size-xs: 29px;
+  --font-size-sm: 37px;
+  --font-size-base: 40px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: #ececec;
+  --color-gray-200: #707070;
+  --color-gray-300: #171717;
+  --color-black: #000;
+
+  /* Gaps */
+  --gap-0: 0px;
+  --gap-sm: 11px;
+  --gap-md: 23px;
+  --gap-lg: 30px;
+  --gap-xl: 121px;
+
+  /* Paddings */
+  --padding-sm: 31px;
+  --padding-md: 59px;
+
+  /* border radiuses */
+  --br-md: 42px;
+}
