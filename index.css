@@ -1,0 +1,469 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.back-button-icon {
+  position: relative;
+  width: 29.56px;
+  height: 20.97px;
+  flex-shrink: 0;
+}
+.headertext-b {
+  position: relative;
+  display: inline-block;
+}
+.headercontent-div {
+  display: flex;
+  flex-direction: row;
+  padding: 15.375825881958008px 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20.5px;
+}
+.notification-icon {
+  position: relative;
+  width: 26.01px;
+  height: 33.3px;
+  flex-shrink: 0;
+}
+.header-div {
+  align-self: stretch;
+  background-color: var(--color-white);
+  height: 10%;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0 18.637365341186523px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.optionimg-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.f1-p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.visa-p {
+  margin: 0;
+}
+.optiontext-b {
+  position: absolute;
+  height: 26.95%;
+  width: 65.27%;
+  top: 50%;
+  left: 17.3%;
+  display: inline-block;
+  background-position: absolute;
+  translate: 0-50%;
+}
+.optionbutton-div {
+  position: relative;
+  width: 80%;
+  height: 90.86px;
+  flex-shrink: 0;
+  background-position: relative;
+  color: var(--color-white);
+}
+.divider-icon {
+  position: relative;
+  width: 2.33px;
+  height: 8.48px;
+  flex-shrink: 0;
+}
+.text-b {
+  position: absolute;
+  height: 26.95%;
+  width: 65.27%;
+  top: 50%;
+  left: 17.3%;
+  display: inline-block;
+  background-position: absolute;
+  translate: 0-50%;
+}
+.optionbutton-div1 {
+  position: relative;
+  width: 80%;
+  height: 90.86px;
+  flex-shrink: 0;
+  background-position: relative;
+}
+.f1visa-b,
+.text-b1,
+.text-b2 {
+  position: absolute;
+  width: 65.27%;
+}
+.f1visa-b {
+  height: 26.95%;
+  top: 36.07%;
+  left: 16.99%;
+  display: inline-block;
+  align-self: center;
+}
+.text-b1,
+.text-b2 {
+  top: 50%;
+  left: 17.3%;
+  translate: 0-40%;
+}
+.text-b1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-b2 {
+  height: 26.95%;
+  display: inline-block;
+  background-position: absolute;
+}
+.optionbutton-div6 {
+  position: relative;
+  width: 80%;
+  height: 90.86px;
+  flex-shrink: 0;
+  background-position: relative;
+  font-size: var(--font-size-3xs);
+}
+.bodyleft-div,
+.left-visa-type {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+.left-visa-type {
+  flex-direction: column;
+  align-items: center;
+  gap: 9.32px;
+  overflow-y: scroll;
+}
+.bodyleft-div {
+  background-color: var(--color-white);
+  flex-direction: row;
+  align-items: flex-start;
+  width: 19%;
+}
+.fulldivider {
+  background-color: var(--color-gray-100);
+  width: 5px;
+  height: 100%;
+}
+.text-h3 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  align-self: start;
+}
+.line-div {
+  background-color: var(--color-gray-100);
+  width: 7px;
+  height: 100%;
+}
+.ellipse-icon,
+.sevis-span {
+  position: relative;
+  width: 11.66px;
+  height: 11.97px;
+  flex-shrink: 0;
+}
+.sevis-span {
+  display: inline-block;
+  width: 43.83px;
+  height: 23.45px;
+}
+.k-b,
+.path-86-icon {
+  position: relative;
+  width: 14.31px;
+  height: 13.7px;
+  flex-shrink: 0;
+}
+.k-b {
+  display: inline-block;
+  width: 13.06px;
+  height: 13.88px;
+}
+.maps-ugc-fill0-wght400-grad0-o-icon {
+  position: relative;
+  width: 13.38px;
+  height: 13.74px;
+  flex-shrink: 0;
+}
+.b,
+.b1,
+.share-icon {
+  position: relative;
+  flex-shrink: 0;
+}
+.b {
+  display: inline-block;
+  width: 18.65px;
+  height: 13.88px;
+}
+.b1,
+.share-icon {
+  width: 13.34px;
+  height: 13.68px;
+}
+.b1 {
+  display: inline-block;
+  width: 6.99px;
+  height: 13.88px;
+}
+.frame-div2,
+.frame-div3 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-div3 {
+  flex-direction: row;
+  gap: var(--gap-2xs);
+  font-size: var(--font-size-2xs);
+  color: var(--color-gray-300);
+}
+.frame-div2 {
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.angle-small-right-icon {
+  position: relative;
+  width: 9.29px;
+  height: 17.68px;
+  flex-shrink: 0;
+}
+.frame-div1 {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-2xl);
+}
+.frame-div,
+.frame-div1,
+.servicecard-div {
+  display: flex;
+  justify-content: flex-start;
+}
+.frame-div {
+  border-radius: var(--br-sm);
+  flex-direction: column;
+  padding: var(--padding-sm) var(--padding-md);
+  box-sizing: border-box;
+  align-items: flex-start;
+  box-shadow: 0 0 10px gray;
+}
+.servicecard-div {
+  width: 261.44px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-md);
+  translate: -4.5%;
+}
+.sevis-span1 {
+  position: relative;
+  display: inline-block;
+  width: 49.39px;
+  height: 23.3px;
+  flex-shrink: 0;
+}
+.bodyrightbox-div,
+.services-div {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 13.51px;
+}
+.bodyrightbox-div {
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-xs) var(--padding-xs) 12px;
+  box-sizing: border-box;
+  gap: 4.66px;
+  overflow-y: scroll;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-500);
+}
+.body-div,
+.bodyright-div {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.bodyright-div {
+  background-color: var(--color-white);
+  width: 78%;
+  flex-shrink: 0;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: 9.78px;
+  overflow-y: hidden;
+  padding: 9.318682670593262px 0 0 3%;
+  text-align: left;
+  font-size: 23.3px;
+  color: var(--color-gray-200);
+}
+.body-div {
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-0);
+  height: 80%;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+}
+.frame-icon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.home-span {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.frame-div52,
+.home-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.frame-div52 {
+  justify-content: flex-start;
+  gap: 3.73px;
+}
+.home-div {
+  align-self: stretch;
+  flex: 1;
+  background: linear-gradient(180deg, #26a6ff, #135380);
+  justify-content: center;
+}
+.post-div1 {
+  position: absolute;
+  top: 65.78%;
+  left: 1.74%;
+  font-weight: 500;
+  display: inline-block;
+}
+.group-icon {
+  position: absolute;
+  height: 62.79%;
+  width: 106.82%;
+  top: -2.49%;
+  right: -2.58%;
+  bottom: 39.71%;
+  left: -4.24%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-div {
+  position: relative;
+  width: 27.48px;
+  height: 46.75px;
+  flex-shrink: 0;
+}
+.journey-div1 {
+  position: absolute;
+  top: 65.85%;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+}
+.group-icon1 {
+  position: absolute;
+  height: 63.1%;
+  width: 35.56%;
+  top: -2.49%;
+  right: 29.29%;
+  bottom: 39.39%;
+  left: 35.15%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-div1 {
+  position: relative;
+  width: 49px;
+  height: 46.86px;
+  flex-shrink: 0;
+}
+.group-icon2 {
+  position: absolute;
+  height: 63.1%;
+  width: 67.08%;
+  top: -2.49%;
+  right: 17.45%;
+  bottom: 39.39%;
+  left: 15.47%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-div2 {
+  position: relative;
+  width: 39px;
+  height: 46.86px;
+  flex-shrink: 0;
+}
+.group-icon3 {
+  position: absolute;
+  height: 63.1%;
+  width: 70.39%;
+  top: -2.49%;
+  right: 15.32%;
+  bottom: 39.39%;
+  left: 14.28%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-div3 {
+  position: relative;
+  width: 42px;
+  height: 46.86px;
+  flex-shrink: 0;
+}
+.botton-nav-bar,
+.journey1-div {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-0);
+}
+.botton-nav-bar {
+  align-self: stretch;
+  height: 10%;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+.journey1-div {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 27.96px;
+  color: var(--color-gray-400);
+  font-family: var(--font-proxima-nova);
+}
