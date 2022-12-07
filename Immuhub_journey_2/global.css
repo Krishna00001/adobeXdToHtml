@@ -1,0 +1,59 @@
+:root {
+  /* fonts */
+  --font-proxima-nova: "Proxima Nova";
+
+  /* font sizes */
+  --font-size-3xs: 10px;
+  --font-size-2xs: 11.18px;
+  --font-size-xs: 12px;
+  --font-size-sm: 13.51px;
+  --font-size-base: 18.64px;
+  --font-size-lg: 23.3px;
+  --font-size-xl: 24px;
+  --font-size-2xl: 27.96px;
+  --font-size-3xl: 29px;
+  --font-size-4xl: 37px;
+  --font-size-5xl: 40px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: #ececec;
+  --color-gray-200: #26a6ff;
+  --color-gray-300: #707070;
+  --color-gray-400: #282828;
+  --color-gray-500: #171717;
+  --color-black: #000;
+
+  /* Gaps */
+  --gap-0: 0px;
+  --gap-5xs: 3.73px;
+  --gap-4xs: 4.66px;
+  --gap-3xs: 5.13px;
+  --gap-2xs: 9.78px;
+  --gap-xs: 9.32px;
+  --gap-sm: 10.72px;
+  --gap-md: 11px;
+  --gap-lg: 13.51px;
+  --gap-xl: 13.98px;
+  --gap-2xl: 20.5px;
+  --gap-3xl: 23px;
+  --gap-4xl: 30px;
+  --gap-5xl: 56.38px;
+  --gap-6xl: 121px;
+
+  /* Paddings */
+  --padding-4xs: 4.659341335296631px;
+  --padding-3xs: 9.318682670593262px;
+  --padding-2xs: 12px;
+  --padding-xs: 13.97802448272705px;
+  --padding-sm: 14.44395637512207px;
+  --padding-md: 15.375825881958008px;
+  --padding-lg: 18.637365341186523px;
+  --padding-xl: 27.4901123046875px;
+  --padding-2xl: 31px;
+  --padding-3xl: 59px;
+
+  /* border radiuses */
+  --br-sm: 19.57px;
+  --br-md: 42px;
+}

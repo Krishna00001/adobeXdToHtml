@@ -1,0 +1,432 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.back-button-icon {
+  position: relative;
+  width: 29.56px;
+  height: 20.97px;
+  flex-shrink: 0;
+}
+.headertext-b {
+  position: relative;
+  display: inline-block;
+}
+.headercontent-div {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-md) 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.notification-icon {
+  position: relative;
+  width: 26.01px;
+  height: 33.3px;
+  flex-shrink: 0;
+}
+.header-div {
+  align-self: stretch;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px 5px rgba(0, 0, 0, 0.16);
+  height: 10%;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-lg);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.optionimg-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.f1-p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.visa-p {
+  margin: 0;
+}
+.optiontext-b {
+  position: absolute;
+  height: 26.95%;
+  width: 65.27%;
+  top: 50%;
+  left: 17.3%;
+  display: inline-block;
+  background-position: absolute;
+  translate: 0-50%;
+}
+.optionbutton-div {
+  position: relative;
+  width: 80%;
+  height: 90.86px;
+  flex-shrink: 0;
+  background-position: relative;
+  color: var(--color-white);
+}
+.divider-icon {
+  position: relative;
+  width: 2.33px;
+  height: 8.48px;
+  flex-shrink: 0;
+}
+.text-b {
+  position: absolute;
+  height: 26.95%;
+  width: 65.27%;
+  top: 50%;
+  left: 17.3%;
+  display: inline-block;
+  background-position: absolute;
+  translate: 0-50%;
+}
+.optionbutton-div1 {
+  position: relative;
+  width: 80%;
+  height: 90.86px;
+  flex-shrink: 0;
+  background-position: relative;
+}
+.f1visa-b,
+.text-b1,
+.text-b2 {
+  position: absolute;
+  width: 65.27%;
+}
+.f1visa-b {
+  height: 26.95%;
+  top: 36.07%;
+  left: 16.99%;
+  display: inline-block;
+  align-self: center;
+}
+.text-b1,
+.text-b2 {
+  top: 50%;
+  left: 17.3%;
+  translate: 0-40%;
+}
+.text-b1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-b2 {
+  height: 26.95%;
+  display: inline-block;
+  background-position: absolute;
+}
+.optionbutton-div6 {
+  position: relative;
+  width: 80%;
+  height: 90.86px;
+  flex-shrink: 0;
+  background-position: relative;
+  font-size: var(--font-size-3xs);
+}
+.bodyleft-div,
+.left-visa-type {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+.left-visa-type {
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-xs);
+  overflow-y: scroll;
+}
+.bodyleft-div {
+  background-color: var(--color-white);
+  flex-direction: row;
+  align-items: flex-start;
+  width: 19%;
+}
+.fulldivider {
+  background-color: var(--color-gray-100);
+  width: 5px;
+  height: 100%;
+}
+.text-h3 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  align-self: start;
+}
+.line-div {
+  background-color: var(--color-gray-100);
+  height: 150%;
+  width: 7px;
+  position: absolute;
+  left: 5%;
+  z-index: 0;
+}
+.ellipse-icon,
+.sevis-span {
+  position: relative;
+  width: 11.66px;
+  height: 11.97px;
+  flex-shrink: 0;
+}
+.sevis-span {
+  display: inline-block;
+  width: 43.83px;
+  height: 23.45px;
+}
+.frame-div,
+.servicecard-div {
+  display: flex;
+  align-items: center;
+}
+.frame-div {
+  border-radius: var(--br-sm);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.35);
+  width: 60%;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-sm) var(--padding-xl);
+  box-sizing: border-box;
+  justify-content: center;
+}
+.servicecard-div {
+  width: 261.44px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  translate: -4.5%;
+}
+.bodyrightbox-div,
+.services-div {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.services-div {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-lg);
+  position: absolute;
+  left: 7.2%;
+  z-index: 1;
+}
+.bodyrightbox-div {
+  height: 100%;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-4xs) var(--padding-4xs) var(--padding-4xs)
+    var(--padding-2xs);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-4xs);
+  overflow-y: scroll;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-500);
+}
+.body-div,
+.bodyright-div {
+  display: flex;
+  align-items: center;
+}
+.bodyright-div {
+  background-color: var(--color-white);
+  width: 78%;
+  height: 100%;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-3xs) 0 0 var(--padding-xs);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  overflow-y: hidden;
+  padding-left: 3%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-200);
+}
+.body-div {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-0);
+  height: 80%;
+  padding-top: 1px;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+}
+.frame-icon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.home-span {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.frame-div15,
+.home-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.frame-div15 {
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.home-div {
+  align-self: stretch;
+  flex: 1;
+  background: linear-gradient(180deg, #26a6ff, #135380);
+  justify-content: center;
+}
+.post-div1 {
+  position: absolute;
+  top: 65.78%;
+  left: 1.74%;
+  font-weight: 500;
+  display: inline-block;
+}
+.group-icon {
+  position: absolute;
+  height: 62.79%;
+  width: 106.82%;
+  top: -2.49%;
+  right: -2.58%;
+  bottom: 39.71%;
+  left: -4.24%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-div {
+  position: relative;
+  width: 27.48px;
+  height: 46.75px;
+  flex-shrink: 0;
+}
+.journey-div1 {
+  position: absolute;
+  top: 65.85%;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+}
+.group-icon1 {
+  position: absolute;
+  height: 63.1%;
+  width: 35.56%;
+  top: -2.49%;
+  right: 29.29%;
+  bottom: 39.39%;
+  left: 35.15%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-div1 {
+  position: relative;
+  width: 49px;
+  height: 46.86px;
+  flex-shrink: 0;
+}
+.group-icon2 {
+  position: absolute;
+  height: 63.1%;
+  width: 67.08%;
+  top: -2.49%;
+  right: 17.45%;
+  bottom: 39.39%;
+  left: 15.47%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-div2 {
+  position: relative;
+  width: 39px;
+  height: 46.86px;
+  flex-shrink: 0;
+}
+.group-icon3 {
+  position: absolute;
+  height: 63.1%;
+  width: 70.39%;
+  top: -2.49%;
+  right: 15.32%;
+  bottom: 39.39%;
+  left: 14.28%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-div3 {
+  position: relative;
+  width: 42px;
+  height: 46.86px;
+  flex-shrink: 0;
+}
+.botton-nav-bar,
+.journey2-div {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-0);
+}
+.botton-nav-bar {
+  align-self: stretch;
+  height: 10%;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+.journey2-div {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow-y: hidden;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-proxima-nova);
+}
+@media screen and (max-width: 500px) {
+  .services-div {
+    position: absolute;
+    left: 7.5%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .services-div {
+    position: absolute;
+    left: 7.9%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .services-div {
+    position: absolute;
+    left: 8.5%;
+  }
+}
